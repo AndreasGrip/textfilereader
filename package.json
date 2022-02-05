@@ -1,0 +1,21 @@
+{
+  "name": "textfilereader",
+  "version": "1.0.0",
+  "description": "Read textfiles, autohandle latin1, utf8, utf16 big endian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "textfiles",
+    "text",
+    "files",
+    "utf8",
+    "latin1",
+    "latin15-1"
+  ],
+  "author": "Andreas Grip",
+  "license": "ISC",
+  "homepage": "https://github.com/AndreasGrip/textfilereader"
+}
