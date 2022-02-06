@@ -1,7 +1,7 @@
 {
   "name": "textfilereader",
-  "version": "1.0.0",
-  "description": "Read textfiles, autohandle latin1, utf8, utf16 big endian",
+  "version": "1.0.1",
+  "description": "Read textfiles, autohandle latin1, utf8, utf16/32 big/little endian",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,11 +11,22 @@
     "textfiles",
     "text",
     "files",
+    "readFile",
+    "readFileSync",
     "utf8",
+    "utf16le",
+    "utf16be",
+    "utf32le",
+    "utf32be",
     "latin1",
-    "latin15-1"
+    "latin15-1",
+    "endian"
   ],
   "author": "Andreas Grip",
   "license": "ISC",
-  "homepage": "https://github.com/AndreasGrip/textfilereader"
+  "homepage": "https://github.com/AndreasGrip/textfilereader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreasGrip/textfilereader.git"
+  }
 }
